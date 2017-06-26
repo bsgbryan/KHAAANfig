@@ -1,0 +1,43 @@
+{
+  "name": "khaaanfig",
+  "version": "1.0.0",
+  "description": "Brilliant, ruthless, simple, and fun way to configure stuff",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "gulp prepublish",
+    "prepare": "gulp dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bsgbryan/KHAAANfig.git"
+  },
+  "keywords": [
+    "config",
+    "module",
+    "star trek",
+    "villain"
+  ],
+  "author": {
+    "name": "Bryan Maynard",
+    "email": "bsgbryan@gmail.com",
+    "url": "https://bsgbryan.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsgbryan/KHAAANfig/issues"
+  },
+  "homepage": "https://github.com/bsgbryan/KHAAANfig#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-coffee": "^2.3.4",
+    "gulp-exclude-gitignore": "^1.1.1",
+    "gulp-hub": "^4.1.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-nsp": "^2.4.2"
+  }
+}
